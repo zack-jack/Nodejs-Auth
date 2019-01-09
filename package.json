@@ -1,0 +1,41 @@
+{
+  "name": "nodejs-auth",
+  "version": "1.0.0",
+  "description": "Node.js authentication boilerplate",
+  "main": "index.js",
+  "keywords": [
+    "Node.js",
+    "jsonwebtoken",
+    "JWT",
+    "passport",
+    "MongoDB"
+  ],
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zack Jackson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zackjacksongit/Nodejs-Auth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zackjacksongit/Nodejs-Auth/issues"
+  },
+  "homepage": "https://github.com/zackjacksongit/Nodejs-Auth#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.2",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.9"
+  }
+}
