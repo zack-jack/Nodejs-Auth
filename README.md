@@ -8,7 +8,11 @@ Clone the repo using the git CLI or via the clone button in the github GUI.
 
 ## Prerequisites
 
-From the project directory, run npm install to install all project dependencies locally.
+Before proceeding, from the project directory, run:
+
+### `npm install`
+
+This will install all project dependencies locally.
 
 ## Available Scripts
 
