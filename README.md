@@ -18,7 +18,7 @@ This will install all project dependencies locally.
 
 In the project directory, you can run:
 
-### `npm dev`
+### `npm run dev`
 
 Runs the server in the development mode.<br>
 Server port is set to run on port 5000.
